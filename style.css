@@ -14,6 +14,7 @@ h1
 section
 {
     display: flex;
+    margin-bottom: 100px;
 }
 .top-banner
 {
@@ -32,11 +33,16 @@ section
 .link-button
 {
   text-decoration: none;
-  
   background-image: linear-gradient(red,orangered);
   padding: 10px 40px;
   border-radius: 5px;
   color: white;
   font-weight: 700;
   
+}
+.dream-big
+{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
